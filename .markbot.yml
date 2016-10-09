@@ -28,6 +28,7 @@ html:
       - '.nav'
       - 'header h1'
       - 'header nav ul li a i'
+      - '.icon'
     search:
       - 'Potion Express'
       - 'Unicorn Tears'
@@ -45,6 +46,7 @@ html:
       - 'micro|milli|kilo|mega|giga|tera|peta|exa|zetta|yotta'
       - 'block'
       - ['list-group(?:-inline)?', 'The `.list-group` or `.list-group-inline` module should be used']
+      - 'i-'
 
 css:
   - path: 'css/main.css'
