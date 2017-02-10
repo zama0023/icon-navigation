@@ -1,5 +1,5 @@
 repo: 'icon-navigation'
-canvasCourse: 'web-dev-3'
+canvasCourse: 'web-dev-2'
 
 naming: true
 restrictFileTypes: true
@@ -16,7 +16,7 @@ html:
     bestPractices: true
     outline: true
     has:
-      - ['link[href*="Abhaya+Libre:400,700"]', 'The Google Font, `Abhaya Libre` (regular & bold) is missing']
+      - ['link[href*="Abhaya+Libre"]', 'The Google Font, `Abhaya Libre` (regular & bold) is missing']
       - ['link[href*="modules.css"] + link[href*="grid.css"]', 'The `modules.css` file must come before the `grid.css` file']
       - ['link[href*="grid.css"] + link[href*="type.css"]', 'The `grid.css` file must come before the `type.css` file']
       - ['link[href*="type.css"] + link[href*="main.css"]', 'The `type.css` file must come before the `main.css` file']
@@ -82,7 +82,7 @@ css:
     valid: true
     bestPractices: true
     search:
-      - ['https://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;hidden;positioning;nice-lists;buttons;forms;accessibility;print', 'Select all the different modules when adding Modulifier.']
+      - ['https://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;hidden;positioning;nice-lists;forms;buttons;accessibility;print', 'Select all the different modules when adding Modulifier.']
 
 screenshots:
   - path: 'index.html'
