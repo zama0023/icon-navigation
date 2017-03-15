@@ -11,12 +11,17 @@ html {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
-a:hover {
+li:hover {
   background-color: #fff;
   color: #15114c;
   text-decoration: none;
+}
+
+a:hover {
+  color: #15114c;
 }
 
 .masthead {
