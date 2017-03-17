@@ -14,14 +14,16 @@ a {
   color: white;
 }
 
-li:hover {
+a:hover {
   background-color: #fff;
   color: #15114c;
   text-decoration: none;
 }
 
-a:hover {
+li:hover {
+  background-color: #fff;
   color: #15114c;
+  text-decoration: none;
 }
 
 .masthead {
